@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/profile-hero.svg" width="100%" alt="Shyam Raj — AI Application, Full-Stack and Realtime Developer" />
+  <img src="assets/profile-hero-v2.svg" width="100%" alt="Shyam Raj — Animated AI Application, Full-Stack and Realtime Developer" />
 </p>
 
 <p align="center">
