@@ -1,88 +1,53 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="460" viewBox="0 0 1280 460" role="img" aria-labelledby="title desc">
-<title id="title">Shyam Raj — Animated Developer Profile</title>
-<desc id="desc">Futuristic 3D GitHub profile banner with sequential typewriter-style text animations, glowing AI core and floating glass panels.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="460" viewBox="0 0 1280 460">
 <defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#030712"/><stop offset=".38" stop-color="#11105b"/><stop offset=".72" stop-color="#6d0f86"/><stop offset="1" stop-color="#006b91"/></linearGradient>
-  <linearGradient id="neon" x1="0" x2="1"><stop stop-color="#5ff7ff"/><stop offset=".5" stop-color="#8b5cf6"/><stop offset="1" stop-color="#ff4fd8"/></linearGradient>
-  <linearGradient id="name" x1="0" x2="1"><stop stop-color="#ffffff"/><stop offset=".35" stop-color="#5ff7ff"/><stop offset=".7" stop-color="#a678ff"/><stop offset="1" stop-color="#ff4fd8"/></linearGradient>
-  <radialGradient id="orb"><stop stop-color="#ffffff"/><stop offset=".12" stop-color="#7af7ff"/><stop offset=".46" stop-color="#7857ff"/><stop offset="1" stop-color="#100a45"/></radialGradient>
-  <filter id="glow"><feGaussianBlur stdDeviation="9" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#fff" stroke-opacity=".045"/></pattern>
-
-  <!-- Typewriter reveal masks: each line is progressively uncovered left-to-right. -->
-  <mask id="mBrand" maskUnits="userSpaceOnUse"><rect x="40" y="0" width="0" height="70" fill="white"><animate attributeName="width" values="0;250;250;0;0" keyTimes="0;.22;.65;.88;1" dur="8s" repeatCount="indefinite"/></rect></mask>
-  <mask id="mTitle" maskUnits="userSpaceOnUse"><rect x="40" y="90" width="0" height="80" fill="white"><animate attributeName="width" values="0;480;480;0;0" keyTimes="0;.25;.65;.88;1" dur="8s" begin=".35s" repeatCount="indefinite"/></rect></mask>
-  <mask id="mRole" maskUnits="userSpaceOnUse"><rect x="40" y="175" width="0" height="35" fill="white"><animate attributeName="width" values="0;510;510;0;0" keyTimes="0;.2;.64;.88;1" dur="8s" begin=".8s" repeatCount="indefinite"/></rect></mask>
-  <mask id="mDesc" maskUnits="userSpaceOnUse"><rect x="40" y="210" width="0" height="30" fill="white"><animate attributeName="width" values="0;600;600;0;0" keyTimes="0;.18;.62;.88;1" dur="8s" begin="1.15s" repeatCount="indefinite"/></rect></mask>
-  <mask id="mStack" maskUnits="userSpaceOnUse"><rect x="40" y="330" width="0" height="35" fill="white"><animate attributeName="width" values="0;560;560;0;0" keyTimes="0;.2;.64;.88;1" dur="8s" begin="1.5s" repeatCount="indefinite"/></rect></mask>
-  <mask id="mBuild" maskUnits="userSpaceOnUse"><rect x="40" y="365" width="0" height="30" fill="white"><animate attributeName="width" values="0;430;430;0;0" keyTimes="0;.18;.62;.88;1" dur="8s" begin="1.85s" repeatCount="indefinite"/></rect></mask>
-  <mask id="mAI" maskUnits="userSpaceOnUse"><rect x="735" y="60" width="0" height="40" fill="white"><animate attributeName="width" values="0;150;150;0;0" keyTimes="0;.2;.65;.9;1" dur="8s" begin="2.2s" repeatCount="indefinite"/></rect></mask>
-  <mask id="mProduct" maskUnits="userSpaceOnUse"><rect x="690" y="275" width="0" height="100" fill="white"><animate attributeName="width" values="0;245;245;0;0" keyTimes="0;.2;.65;.9;1" dur="8s" begin="2.55s" repeatCount="indefinite"/></rect></mask>
-  <mask id="mShip" maskUnits="userSpaceOnUse"><rect x="990" y="295" width="0" height="120" fill="white"><animate attributeName="width" values="0;250;250;0;0" keyTimes="0;.2;.65;.9;1" dur="8s" begin="2.9s" repeatCount="indefinite"/></rect></mask>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#030712"/><stop offset=".42" stop-color="#15105f"/><stop offset=".72" stop-color="#701080"/><stop offset="1" stop-color="#007d9b"/></linearGradient>
+<linearGradient id="neon"><stop stop-color="#5ff7ff"/><stop offset=".5" stop-color="#9565ff"/><stop offset="1" stop-color="#ff54d6"/></linearGradient>
+<linearGradient id="name"><stop stop-color="#fff"/><stop offset=".35" stop-color="#62f7ff"/><stop offset=".7" stop-color="#a878ff"/><stop offset="1" stop-color="#ff68d9"/></linearGradient>
+<radialGradient id="orb"><stop stop-color="#fff"/><stop offset=".12" stop-color="#7af7ff"/><stop offset=".46" stop-color="#7356ff"/><stop offset="1" stop-color="#100a45"/></radialGradient>
+<filter id="glow"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#fff" stroke-opacity=".045"/></pattern>
+<!-- Typewriter masks progressively reveal each line, then restart. -->
+<mask id="brand"><rect x="50" y="0" width="0" height="70" fill="white"><animate attributeName="width" values="0;210;210;0" keyTimes="0;.22;.68;1" dur="7s" repeatCount="indefinite"/></rect></mask>
+<mask id="title"><rect x="50" y="70" width="0" height="90" fill="white"><animate attributeName="width" values="0;480;480;0" keyTimes="0;.2;.68;1" dur="7s" begin=".2s" repeatCount="indefinite"/></rect></mask>
+<mask id="role"><rect x="50" y="165" width="0" height="45" fill="white"><animate attributeName="width" values="0;520;520;0" keyTimes="0;.2;.68;1" dur="7s" begin=".65s" repeatCount="indefinite"/></rect></mask>
+<mask id="desc"><rect x="50" y="205" width="0" height="35" fill="white"><animate attributeName="width" values="0;610;610;0" keyTimes="0;.18;.68;1" dur="7s" begin="1.05s" repeatCount="indefinite"/></rect></mask>
+<mask id="stack"><rect x="50" y="335" width="0" height="35" fill="white"><animate attributeName="width" values="0;590;590;0" keyTimes="0;.22;.68;1" dur="7s" begin="1.55s" repeatCount="indefinite"/></rect></mask>
+<mask id="build"><rect x="50" y="370" width="0" height="35" fill="white"><animate attributeName="width" values="0;450;450;0" keyTimes="0;.18;.68;1" dur="7s" begin="1.9s" repeatCount="indefinite"/></rect></mask>
+<style>
+.cursor{animation:blink .65s steps(1,end) infinite}@keyframes blink{0%,45%{opacity:1}46%,100%{opacity:0}}
+</style>
 </defs>
-
-<rect width="1280" height="460" rx="30" fill="url(#bg)"/>
-<rect width="1280" height="460" rx="30" fill="url(#grid)"/>
-<circle cx="1050" cy="215" r="220" fill="#5ff4ff" opacity=".07"><animate attributeName="r" values="190;235;190" dur="4s" repeatCount="indefinite"/><animate attributeName="opacity" values=".04;.14;.04" dur="4s" repeatCount="indefinite"/></circle>
-<circle cx="150" cy="470" r="190" fill="#ff4fd8" opacity=".08"><animate attributeName="r" values="175;215;175" dur="5s" repeatCount="indefinite"/></circle>
-<path d="M0 405C220 330 430 465 680 390S1040 335 1280 385V460H0Z" fill="#02030c" opacity=".35"/>
-
+<rect width="1280" height="460" rx="30" fill="url(#bg)"/><rect width="1280" height="460" rx="30" fill="url(#grid)"/>
+<circle cx="1045" cy="215" r="220" fill="#5ff4ff" opacity=".07"><animate attributeName="r" values="190;235;190" dur="4s" repeatCount="indefinite"/><animate attributeName="opacity" values=".04;.14;.04" dur="4s" repeatCount="indefinite"/></circle>
+<circle cx="150" cy="470" r="190" fill="#ff4fd8" opacity=".08"><animate attributeName="r" values="170;215;170" dur="5s" repeatCount="indefinite"/></circle>
 <g font-family="Segoe UI,Arial,sans-serif" fill="#fff">
-  <!-- Every visible text line below uses a left-to-right typewriter reveal. -->
-  <g mask="url(#mBrand)">
-    <text x="62" y="55" font-size="16" font-weight="900" letter-spacing="4" fill="url(#name)">✦ SHYAM RAJ ✦</text>
-    <rect x="62" y="65" width="190" height="3" rx="1.5" fill="url(#neon)"/>
-  </g>
-
-  <g mask="url(#mTitle)">
-    <text x="62" y="145" font-size="68" font-weight="900" letter-spacing="1" fill="url(#name)">SHYAM RAJ</text>
-  </g>
-  <rect x="64" y="158" width="0" height="6" rx="3" fill="url(#neon)">
-    <animate attributeName="width" values="0;450;450;0;0" keyTimes="0;.25;.65;.88;1" dur="8s" begin=".35s" repeatCount="indefinite"/>
-  </rect>
-
-  <g mask="url(#mRole)"><text x="64" y="198" font-size="22" font-weight="800" fill="#eef0ff">AI APPLICATION · FULL-STACK · REALTIME</text></g>
-  <g mask="url(#mDesc)"><text x="64" y="228" font-size="15" fill="#c0c9e7">B.Tech CSE student building practical, production-minded software.</text></g>
-
-  <!-- Skill chips appear in a typing sequence rather than all at once. -->
-  <g transform="translate(64 264)">
-    <g opacity="0"><rect width="150" height="44" rx="14" fill="#fff" fill-opacity=".08" stroke="#5ff7ff" stroke-opacity=".55"/><text x="75" y="28" text-anchor="middle" font-size="12" font-weight="800">PYTHON + AI</text><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.1;.8;1" dur="8s" begin="2.3s" repeatCount="indefinite"/></g>
-    <g transform="translate(164)" opacity="0"><rect width="164" height="44" rx="14" fill="#fff" fill-opacity=".08" stroke="#8b5cf6" stroke-opacity=".55"/><text x="82" y="28" text-anchor="middle" font-size="12" font-weight="800">FULL-STACK</text><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.1;.8;1" dur="8s" begin="2.65s" repeatCount="indefinite"/></g>
-    <g transform="translate(342)" opacity="0"><rect width="180" height="44" rx="14" fill="#fff" fill-opacity=".08" stroke="#ff4fd8" stroke-opacity=".55"/><text x="90" y="28" text-anchor="middle" font-size="12" font-weight="800">REALTIME + MOBILE</text><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.1;.8;1" dur="8s" begin="3s" repeatCount="indefinite"/></g>
-  </g>
-
-  <g mask="url(#mStack)"><text x="64" y="350" font-size="12" fill="#a7b3d4" letter-spacing="1.5">FASTAPI · REACT · TYPESCRIPT · WEBRTC · NODE · REDIS · DOCKER</text></g>
-  <g mask="url(#mBuild)"><text x="64" y="382" font-size="13" fill="#6ff7ff" font-weight="700">BUILDING → LEARNING → SHIPPING → IMPROVING</text></g>
-
-  <!-- 3D AI core -->
-  <g fill="none">
-    <circle cx="1040" cy="215" r="145" stroke="#6ff7ff" stroke-opacity=".28" stroke-width="2"><animateTransform attributeName="transform" type="rotate" from="0 1040 215" to="360 1040 215" dur="9s" repeatCount="indefinite"/></circle>
-    <circle cx="1040" cy="215" r="178" stroke="#ff63db" stroke-opacity=".22" stroke-width="2" stroke-dasharray="8 13"><animateTransform attributeName="transform" type="rotate" from="360 1040 215" to="0 1040 215" dur="13s" repeatCount="indefinite"/></circle>
-  </g>
-  <circle cx="1040" cy="215" r="94" fill="url(#orb)" filter="url(#glow)"><animate attributeName="r" values="88;104;94;101;88" dur="4s" repeatCount="indefinite"/><animate attributeName="opacity" values=".75;1;.82;1;.75" dur="4s" repeatCount="indefinite"/></circle>
-  <circle cx="1010" cy="183" r="25" fill="#fff" opacity=".38"><animate attributeName="cx" values="1000;1020;1000" dur="3s" repeatCount="indefinite"/></circle>
-
-  <!-- Floating cards with their text also revealed sequentially. -->
-  <g>
-    <rect x="745" y="76" width="190" height="88" rx="20" fill="#fff" fill-opacity=".08" stroke="#62f6ff" stroke-opacity=".48"/>
-    <g mask="url(#mAI)"><text x="768" y="108" fill="#8ff8ff" font-size="11" font-weight="900">AI SYSTEMS</text></g>
-    <path d="M768 139l33-20 29 12 34-29 40 18" fill="none" stroke="url(#neon)" stroke-width="4" stroke-linecap="round" stroke-dasharray="20 200"><animate attributeName="stroke-dashoffset" from="0" to="-220" dur="2.5s" repeatCount="indefinite"/></path>
-    <animateTransform attributeName="transform" type="translate" values="0 8;0 -8;0 8" dur="4s" repeatCount="indefinite"/>
-  </g>
-
-  <g>
-    <rect x="700" y="290" width="218" height="94" rx="20" fill="#fff" fill-opacity=".08" stroke="#8b5cf6" stroke-opacity=".48"/>
-    <circle cx="730" cy="321" r="8" fill="#62f6ff"><animate attributeName="r" values="6;12;6" dur="1.6s" repeatCount="indefinite"/></circle>
-    <circle cx="756" cy="321" r="8" fill="#8b5cf6"><animate attributeName="r" values="6;12;6" dur="1.6s" begin=".25s" repeatCount="indefinite"/></circle>
-    <circle cx="782" cy="321" r="8" fill="#ff4fd8"><animate attributeName="r" values="6;12;6" dur="1.6s" begin=".5s" repeatCount="indefinite"/></circle>
-    <g mask="url(#mProduct)"><text x="724" y="355" fill="#dce2f4" font-size="12" font-weight="800">PRODUCT + SYSTEM DESIGN</text></g>
-    <animateTransform attributeName="transform" type="translate" values="0 5;0 -5;0 5" dur="5s" repeatCount="indefinite"/>
-  </g>
-
-  <g>
-    <rect x="1000" y="310" width="214" height="96" rx="20" fill="#fff" fill-opacity=".08" stroke="#ff63db" stroke-opacity=".48"/>
-    <g mask="url(#mShip)"><text x="1024" y="346" fill="#fff" font-size="12" font-weight="900">BUILD → TEST → SHIP</text><rect x="1024" y="365" width="135" height="9" rx="4.5" fill="url(#neon)"/><text x="1024" y="393" fill="#b9c6e8" font-size="10">PRODUCT ENGINEERING</text></g>
-    <animateTransform attributeName="transform" type="translate" values="0 -7;0 7;0 -7" dur="4.5s" repeatCount="indefinite"/>
-  </g>
-</g>
-</svg>
+<!-- BRAND: typewriter + blinking cursor -->
+<g mask="url(#brand)"><text x="62" y="52" font-size="16" font-weight="900" letter-spacing="4" fill="url(#name)">✦ SHYAM RAJ ✦</text></g>
+<rect x="62" y="62" width="175" height="3" rx="2" fill="url(#neon)"/>
+<rect class="cursor" x="244" y="31" width="3" height="28" rx="1.5" fill="#61f7ff"><animate attributeName="x" values="62;270;62" keyTimes="0;.23;1" dur="7s" repeatCount="indefinite"/></rect>
+<!-- MAIN NAME: typewriter reveal + cursor -->
+<g mask="url(#title)"><text x="62" y="145" font-size="68" font-weight="900" letter-spacing="1" fill="url(#name)">SHYAM RAJ</text></g>
+<rect class="cursor" x="62" y="91" width="4" height="67" rx="2" fill="#fff"><animate attributeName="x" values="62;510;62" keyTimes="0;.2;1" dur="7s" begin=".2s" repeatCount="indefinite"/></rect>
+<rect x="64" y="158" width="0" height="6" rx="3" fill="url(#neon)"><animate attributeName="width" values="0;450;450;0" keyTimes="0;.2;.68;1" dur="7s" begin=".2s" repeatCount="indefinite"/></rect>
+<!-- ROLE -->
+<g mask="url(#role)"><text x="64" y="198" font-size="22" font-weight="800" fill="#eef0ff">AI APPLICATION · FULL-STACK · REALTIME</text></g>
+<rect class="cursor" x="64" y="176" width="3" height="28" fill="#61f7ff"><animate attributeName="x" values="64;570;64" keyTimes="0;.2;1" dur="7s" begin=".65s" repeatCount="indefinite"/></rect>
+<!-- DESCRIPTION -->
+<g mask="url(#desc)"><text x="64" y="228" font-size="15" fill="#c0c9e7">B.Tech CSE student building practical, production-minded software.</text></g>
+<rect class="cursor" x="64" y="211" width="3" height="22" fill="#61f7ff"><animate attributeName="x" values="64;665;64" keyTimes="0;.18;1" dur="7s" begin="1.05s" repeatCount="indefinite"/></rect>
+<!-- CHIPS appear one after another -->
+<g transform="translate(64 264)"><g opacity="0"><rect width="150" height="44" rx="14" fill="#fff" fill-opacity=".08" stroke="#5ff7ff" stroke-opacity=".55"/><text x="75" y="28" text-anchor="middle" font-size="12" font-weight="800">PYTHON + AI</text><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.12;.78;1" dur="7s" begin="2.15s" repeatCount="indefinite"/></g><g transform="translate(164)" opacity="0"><rect width="164" height="44" rx="14" fill="#fff" fill-opacity=".08" stroke="#9565ff" stroke-opacity=".55"/><text x="82" y="28" text-anchor="middle" font-size="12" font-weight="800">FULL-STACK</text><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.12;.78;1" dur="7s" begin="2.45s" repeatCount="indefinite"/></g><g transform="translate(342)" opacity="0"><rect width="180" height="44" rx="14" fill="#fff" fill-opacity=".08" stroke="#ff54d6" stroke-opacity=".55"/><text x="90" y="28" text-anchor="middle" font-size="12" font-weight="800">REALTIME + MOBILE</text><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.12;.78;1" dur="7s" begin="2.75s" repeatCount="indefinite"/></g></g>
+<!-- STACK -->
+<g mask="url(#stack)"><text x="64" y="350" font-size="12" fill="#a7b3d4" letter-spacing="1.5">FASTAPI · REACT · TYPESCRIPT · WEBRTC · NODE · REDIS · DOCKER</text></g>
+<rect class="cursor" x="64" y="336" width="3" height="20" fill="#61f7ff"><animate attributeName="x" values="64;650;64" keyTimes="0;.22;1" dur="7s" begin="1.55s" repeatCount="indefinite"/></rect>
+<!-- BUILD -->
+<g mask="url(#build)"><text x="64" y="382" font-size="13" fill="#6ff7ff" font-weight="700">BUILDING → LEARNING → SHIPPING → IMPROVING</text></g>
+<rect class="cursor" x="64" y="369" width="3" height="20" fill="#61f7ff"><animate attributeName="x" values="64;515;64" keyTimes="0;.18;1" dur="7s" begin="1.9s" repeatCount="indefinite"/></rect>
+<!-- 3D AI CORE -->
+<g fill="none"><circle cx="1040" cy="215" r="145" stroke="#6ff7ff" stroke-opacity=".28" stroke-width="2"><animateTransform attributeName="transform" type="rotate" from="0 1040 215" to="360 1040 215" dur="9s" repeatCount="indefinite"/></circle><circle cx="1040" cy="215" r="178" stroke="#ff63db" stroke-opacity=".22" stroke-width="2" stroke-dasharray="8 13"><animateTransform attributeName="transform" type="rotate" from="360 1040 215" to="0 1040 215" dur="13s" repeatCount="indefinite"/></circle></g>
+<circle cx="1040" cy="215" r="94" fill="url(#orb)" filter="url(#glow)"><animate attributeName="r" values="88;104;94;101;88" dur="4s" repeatCount="indefinite"/><animate attributeName="opacity" values=".75;1;.82;1;.75" dur="4s" repeatCount="indefinite"/></circle><circle cx="1010" cy="183" r="25" fill="#fff" opacity=".38"><animate attributeName="cx" values="1000;1020;1000" dur="3s" repeatCount="indefinite"/></circle>
+<!-- FLOATING PANELS -->
+<g><rect x="745" y="76" width="190" height="88" rx="20" fill="#fff" fill-opacity=".08" stroke="#62f6ff" stroke-opacity=".48"/><text x="768" y="108" fill="#8ff8ff" font-size="11" font-weight="900" opacity="0"><animate attributeName="opacity" values="0;1;1" dur="1s" begin="3s" fill="freeze"/>AI SYSTEMS</text><path d="M768 139l33-20 29 12 34-29 40 18" fill="none" stroke="url(#neon)" stroke-width="4" stroke-linecap="round" stroke-dasharray="20 200"><animate attributeName="stroke-dashoffset" from="0" to="-220" dur="2.5s" repeatCount="indefinite"/></path><animateTransform attributeName="transform" type="translate" values="0 8;0 -8;0 8" dur="4s" repeatCount="indefinite"/></g>
+<g><rect x="700" y="290" width="218" height="94" rx="20" fill="#fff" fill-opacity=".08" stroke="#9565ff" stroke-opacity=".48"/><circle cx="730" cy="321" r="8" fill="#62f6ff"><animate attributeName="r" values="6;12;6" dur="1.6s" repeatCount="indefinite"/></circle><circle cx="756" cy="321" r="8" fill="#9565ff"><animate attributeName="r" values="6;12;6" dur="1.6s" begin=".25s" repeatCount="indefinite"/></circle><circle cx="782" cy="321" r="8" fill="#ff54d6"><animate attributeName="r" values="6;12;6" dur="1.6s" begin=".5s" repeatCount="indefinite"/></circle><text x="724" y="355" fill="#dce2f4" font-size="12" font-weight="800" opacity="0"><animate attributeName="opacity" values="0;1;1" dur="1s" begin="3.3s" fill="freeze"/>PRODUCT + SYSTEM DESIGN</text><animateTransform attributeName="transform" type="translate" values="0 5;0 -5;0 5" dur="5s" repeatCount="indefinite"/></g>
+<g><rect x="1000" y="310" width="214" height="96" rx="20" fill="#fff" fill-opacity=".08" stroke="#ff63db" stroke-opacity=".48"/><text x="1024" y="346" fill="#fff" font-size="12" font-weight="900" opacity="0"><animate attributeName="opacity" values="0;1;1" dur="1s" begin="3.6s" fill="freeze"/>BUILD → TEST → SHIP</text><rect x="1024" y="365" width="0" height="9" rx="4.5" fill="url(#neon)"><animate attributeName="width" values="0;135;35;135" dur="3s" repeatCount="indefinite"/></rect><text x="1024" y="393" fill="#b9c6e8" font-size="10" opacity="0"><animate attributeName="opacity" values="0;1;1" dur="1s" begin="3.8s" fill="freeze"/>PRODUCT ENGINEERING</text><animateTransform attributeName="transform" type="translate" values="0 -7;0 7;0 -7" dur="4.5s" repeatCount="indefinite"/></g>
+</g></svg>
