@@ -1,42 +1,72 @@
-<p align="center">
-  <img src="assets/profile-hero-v2.svg" width="100%" alt="Shyam Raj — Animated AI Application, Full-Stack and Realtime Developer" />
-</p>
+<div align="center">
 
-<p align="center">
-  <a href="https://github.com/shyamraj2143"><img src="https://img.shields.io/badge/GitHub-shyamraj2143-111827?style=for-the-badge&logo=github" alt="GitHub" /></a>
-  <img src="https://komarev.com/ghpvc/?username=shyamraj2143&label=PROFILE%20VIEWS&color=7c3aed&style=for-the-badge" alt="Profile views" />
-  <img src="https://img.shields.io/badge/OPEN%20TO-INTERNSHIPS-06b6d4?style=for-the-badge" alt="Open to internships" />
-</p>
+# ◈ SHYAM RAJ ◈
 
-<h2 align="center">⚡ Building practical software with AI, full-stack engineering & realtime systems.</h2>
+<a href="https://github.com/shyamraj2143">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&duration=2300&pause=900&color=5FF7FF&center=true&vCenter=true&width=850&height=55&repeat=true&lines=SHYAM+RAJ;AI+APPLICATION+DEVELOPER;FULL-STACK+ENGINEER;REALTIME+SYSTEMS+BUILDER" alt="Shyam Raj typing animation" />
+</a>
 
-<p align="center">B.Tech Computer Science & Engineering student focused on turning ideas into usable products.</p>
-
----
-
-## 🧑‍💻 Developer Snapshot
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:050816,45:30207A,75:7C2CE8,100:00D9FF&height=120&section=header&text=&fontSize=1" width="100%" alt="" />
 
 <table>
 <tr>
-<td width="33%" valign="top">
+<td align="center" width="25%">🤖<br><b>AI APPLICATIONS</b></td>
+<td align="center" width="25%">⚙️<br><b>FULL-STACK</b></td>
+<td align="center" width="25%">📡<br><b>REALTIME</b></td>
+<td align="center" width="25%">📱<br><b>ANDROID</b></td>
+</tr>
+</table>
 
-### 🤖 AI Applications
+<a href="https://github.com/shyamraj2143"><img src="https://img.shields.io/badge/GITHUB-SHYAMRAJ2143-111827?style=for-the-badge&logo=github" alt="GitHub" /></a>
+<a href="https://www.linkedin.com/in/shyam-raj-438558331/"><img src="https://img.shields.io/badge/LINKEDIN-CONNECT-0A66C2?style=for-the-badge&logo=linkedin" alt="LinkedIn" /></a>
+<img src="https://img.shields.io/badge/OPEN%20TO-INTERNSHIPS-00D9FF?style=for-the-badge" alt="Open to internships" />
 
-Multi-model AI integration, document intelligence, voice, vision and user-controlled memory.
+</div>
+
+---
+
+## 🖥️ `developer_console.sh`
+
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=1900&pause=700&color=A78BFA&center=true&vCenter=true&width=900&height=45&repeat=true&lines=%24+whoami+%3E+Shyam+Raj;%24+mission+%3E+Build+useful+AI+products;%24+focus+%3E+Backend+%7C+Full-Stack+%7C+Realtime;%24+status+%3E+Learning+%E2%86%92+Building+%E2%86%92+Shipping" alt="Developer console typing animation" />
+
+</div>
+
+> **B.Tech Computer Science & Engineering student** building practical software with AI, backend engineering, realtime communication and Android integration.
+
+## 🧬 Engineering Identity
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🤖 AI Application Engineering
+
+Multi-model AI integration, document intelligence, voice/vision workflows, user-controlled memory and practical AI product development.
 
 </td>
-<td width="33%" valign="top">
+<td width="50%" valign="top">
 
-### ⚙️ Full-Stack
+### ⚡ Production-Minded Full Stack
 
-Python/FastAPI backends with React, TypeScript, REST APIs, databases and production workflows.
+Python/FastAPI backends, React/TypeScript interfaces, REST APIs, databases, authentication and deployment workflows.
 
 </td>
-<td width="33%" valign="top">
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-### 📡 Realtime
+### 📡 Realtime Systems
 
-WebRTC, Socket.IO, Redis, Firebase notifications and Android communication workflows.
+WebRTC, Socket.IO, Redis, Firebase notifications and realtime audio/video communication workflows.
+
+</td>
+<td width="50%" valign="top">
+
+### 📱 Mobile Engineering
+
+Android integration, React Native, foreground/background workflows and push-notification systems.
 
 </td>
 </tr>
@@ -44,28 +74,30 @@ WebRTC, Socket.IO, Redis, Firebase notifications and Android communication workf
 
 ## 🧠 About Me
 
-- 🎓 B.Tech Computer Science & Engineering student at **I.K. Gujral Punjab Technical University**
-- 🚀 Building **Auto AI**, a multi-model AI and realtime communication platform
-- 📱 Working across web, backend and Android-oriented systems
-- 🧩 Interested in AI application engineering, backend architecture and realtime systems
-- 🤝 Open to software engineering internships and technical collaborations
+<div align="center">
 
-## 🛠️ Technology Stack
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=16&duration=1700&pause=650&color=FFFFFF&center=true&vCenter=true&width=900&height=100&multiline=true&repeat=true&lines=I+build+practical+products%2C+not+just+demo+projects.;I+turn+ideas+into+working+AI%2C+backend%2C+mobile+and+realtime+systems.;Currently+focused+on+becoming+a+strong+production-ready+engineer." alt="About me typing animation" />
+
+</div>
+
+- 🎓 B.Tech Computer Science & Engineering — I.K. Gujral Punjab Technical University
+- 🚀 Building **Auto AI**, a multi-model AI and realtime communication platform
+- 📡 Interested in AI application engineering, backend architecture and realtime systems
+- 🤝 Looking for software engineering internships and serious technical collaborations
+
+## 🧰 Technology Arsenal
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,fastapi,react,ts,tailwind,nodejs,express,mongodb,postgres,sqlite,redis,docker,git,github,githubactions,androidstudio,firebase,aws&perline=9" alt="Technology stack" />
+<img src="https://skillicons.dev/icons?i=python,fastapi,react,ts,tailwind,nodejs,express,mongodb,postgres,sqlite,redis,docker,git,github,githubactions,androidstudio,firebase,aws&perline=9" alt="Technology stack" />
 </p>
 
-| Focus | Technologies |
-|---|---|
-| **AI** | OpenAI · Groq · Amazon Bedrock · AI API integration · model orchestration |
-| **Backend** | Python · FastAPI · Node.js · Express · REST APIs · SQLAlchemy |
-| **Frontend** | React · TypeScript · JavaScript · Tailwind CSS |
-| **Realtime** | WebRTC · Socket.IO · Redis · Firebase Cloud Messaging |
-| **Mobile** | Android · React Native · Firebase |
-| **Data & DevOps** | MongoDB · PostgreSQL · SQLite · Docker · GitHub Actions |
+<div align="center">
 
-## 🚀 Project Showcase
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&duration=1600&pause=550&color=6FF7FF&center=true&vCenter=true&width=900&height=45&repeat=true&lines=Python+%2B+FastAPI;React+%2B+TypeScript+%2B+Tailwind;WebRTC+%2B+Socket.IO+%2B+Redis;MongoDB+%2B+SQL+%2B+Docker;Firebase+%2B+Android+%2B+Cloud" alt="Technology typing animation" />
+
+</div>
+
+## 🚀 Project Galaxy
 
 <table>
 <tr>
@@ -73,22 +105,26 @@ WebRTC, Socket.IO, Redis, Firebase notifications and Android communication workf
 
 ### 🧠 Auto AI
 
+**Flagship Project**
+
 Multi-model AI assistant combining chat, documents, voice, vision, memory and realtime audio/video communication.
 
-**Python · FastAPI · React · TypeScript · WebRTC · Redis · Firebase · AI APIs**
+`Python` `FastAPI` `React` `TypeScript` `WebRTC` `Redis` `Firebase`
 
-<a href="https://github.com/shyamraj2143/auto-ai">→ Explore Auto AI</a>
+**[→ Explore Auto AI](https://github.com/shyamraj2143/auto-ai)**
 
 </td>
 <td width="50%" valign="top">
 
 ### 📡 VideoApp
 
-Realtime communication platform spanning backend, mobile application, messaging, notifications and call workflows.
+**Realtime Communication Platform**
 
-**Node.js · Express · MongoDB · Socket.IO · React Native · Docker**
+Backend, mobile application, messaging, notifications and audio/video call workflows.
 
-<a href="https://github.com/shyamraj2143/whatsapp">→ Explore VideoApp</a>
+`Node.js` `Express` `MongoDB` `Socket.IO` `React Native`
+
+**[→ Explore VideoApp](https://github.com/shyamraj2143/whatsapp)**
 
 </td>
 </tr>
@@ -97,57 +133,47 @@ Realtime communication platform spanning backend, mobile application, messaging,
 
 ### 📊 Clean Metric Summary Viewer
 
-Academic team project focused on planning data validation, cleaning, deduplication, classification and summary dashboards for CSV/TXT/LOG data.
+**Academic Team Project · Group G8**
 
-**FastAPI · Pandas · Data Quality · System Design**
+Planning a data-quality system for validation, cleaning, deduplication, classification and summary dashboards for CSV/TXT/LOG data.
+
+`FastAPI` `Pandas` `Data Quality` `System Design`
 
 </td>
 <td width="50%" valign="top">
 
 ### 🎬 VideoServer
 
-Lightweight Python local video streaming server with browser uploads, search and folder switching.
+**Python Media Project**
 
-**Python · HTTP Streaming · Local Storage**
+Lightweight local video streaming server with browser uploads, search and folder switching.
 
-<a href="https://github.com/shyamraj2143/videoserver">→ Explore VideoServer</a>
+`Python` `HTTP Streaming` `Local Storage`
+
+**[→ Explore VideoServer](https://github.com/shyamraj2143/videoserver)**
 
 </td>
 </tr>
 </table>
 
-## 📈 GitHub Activity
+## 📊 Engineering Activity
 
 <p align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=shyamraj2143&show_icons=true&theme=midnight-purple&hide_border=true&border_radius=16&rank_icon=github" alt="GitHub statistics" />
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shyamraj2143&layout=compact&theme=midnight-purple&hide_border=true&border_radius=16" alt="Most used languages" />
+<img height="180" src="https://github-readme-stats.vercel.app/api?username=shyamraj2143&show_icons=true&theme=midnight-purple&hide_border=true&border_radius=18&rank_icon=github" alt="GitHub statistics" />
+<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shyamraj2143&layout=compact&theme=midnight-purple&hide_border=true&border_radius=18" alt="Most used languages" />
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=shyamraj2143&theme=midnight-purple&hide_border=true&border_radius=16" alt="GitHub contribution streak" />
+<img src="https://streak-stats.demolab.com?user=shyamraj2143&theme=midnight-purple&hide_border=true&border_radius=18" alt="GitHub streak" />
 </p>
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=shyamraj2143&theme=react-dark&hide_border=true&radius=16&area=true" width="100%" alt="GitHub contribution activity" />
-</p>
+## 🎯 Current Mission
 
-## 🎯 What I'm Building Toward
+<div align="center">
 
-```text
-AI Applications
-      ↓
-Reliable Backend Systems
-      ↓
-Realtime + Mobile Experiences
-      ↓
-Production-ready Engineering
-      ↓
-Real-world Products
-```
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=17&duration=1800&pause=650&color=FF68DA&center=true&vCenter=true&width=900&height=60&repeat=true&lines=BUILD+%E2%86%92+TEST+%E2%86%92+IMPROVE+%E2%86%92+SHIP;AI+APPLICATIONS+%E2%86%92+RELIABLE+BACKENDS;REALTIME+SYSTEMS+%E2%86%92+MOBILE+EXPERIENCES;STUDENT+%E2%86%92+ENGINEER+%E2%86%92+PROBLEM+SOLVER" alt="Mission typing animation" />
 
-## 📚 Currently Strengthening
-
-`Backend Architecture` · `AI Application Engineering` · `System Design` · `Realtime Communication` · `Cloud Deployment` · `Data Structures & Algorithms`
+</div>
 
 ## 💼 Open To
 
@@ -156,11 +182,18 @@ Real-world Products
 ## 📫 Connect
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/shyam-raj-438558331/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin" alt="LinkedIn" /></a>
-  <a href="https://github.com/shyamraj2143"><img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github" alt="GitHub" /></a>
+<a href="https://www.linkedin.com/in/shyam-raj-438558331/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin" alt="LinkedIn" /></a>
+<a href="https://github.com/shyamraj2143"><img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github" alt="GitHub" /></a>
 </p>
+
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&duration=1800&pause=700&color=6FF7FF&center=true&vCenter=true&width=800&height=40&repeat=true&lines=BUILD+IT.;UNDERSTAND+IT.;IMPROVE+IT.;SHIP+IT." alt="Closing typing animation" />
+
+</div>
 
 ---
 
-<p align="center"><strong>Build it. Understand it. Improve it. Ship it.</strong></p>
-<p align="center"><sub>AI • Full-Stack • Realtime • Android • Product Engineering</sub></p>
+<div align="center">
+<sub>AI • Full-Stack • Realtime • Android • Product Engineering</sub>
+</div>
